@@ -1,7 +1,11 @@
+
 import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import Products from "./components/Products/Products";
 import Slider from "./components/slider/Slider";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Virtual from "./components/Virtual/Virtual";
 
 function App() {
   return (
@@ -9,6 +13,9 @@ function App() {
       <Header />
       <Hero />
       <Slider />
+      <Virtual />
+      <Products />
+      <Testimonials />
     </div>
   );
 }

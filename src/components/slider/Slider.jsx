@@ -5,6 +5,7 @@ import{Pagination, Navigation} from 'swiper'
 import 'swiper/css'
 import'swiper/css/pagination'
 import'swiper/css/navigation'
+import './Slider.css'
 
 import {SliderProducts} from '../../data/products'
 
@@ -13,7 +14,11 @@ const Slider = () => {
   return (
     <div className='s-container'>
         <Swiper
-        sidesPerView={3}
+        modules={[Pagination, Navigation]}
+        className='mySwiper'
+        navigation={true}
+        loopFillGroupWithBlank={true}
+        slidesPerView={3}
         spaceBetween={40}
         slidesPerGroup={1}
         loop={true}
