@@ -1,5 +1,6 @@
 
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Products from "./components/Products/Products";
@@ -16,6 +17,7 @@ function App() {
       <Virtual />
       <Products />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
