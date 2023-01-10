@@ -1,6 +1,7 @@
 .container {
     padding: 1.5rem;
     display:flex;
+    background-color: #F2B441;
 }
 .logo{
     display: flex;
